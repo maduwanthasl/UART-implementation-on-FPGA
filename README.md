@@ -1,2 +1,7 @@
 # UART-implementation-on-FPGA
-Here I implemented UART on FPGA board
+
+## Introduction
+
+## What is UART?
+
+## How UART work?
