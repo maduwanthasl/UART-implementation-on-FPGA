@@ -123,6 +123,8 @@ endmodule
 
 #### Testbench results
 
+![Test bench results](https://raw.githubusercontent.com/maduwanthasl/UART-implementation-on-FPGA/main/Images/TB_Sim.png)
+
 ## Appendix
 
 #### youtube videos
