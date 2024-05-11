@@ -106,6 +106,21 @@ endmodule
 
 </pre>
 
+#### Explanation:
+
+- The testbench starts by instantiating the UART module (uart) and connecting its inputs and outputs to signals within the testbench.
+- The data register holds the data to be transmitted, initially set to 0.
+- The clk signal generates a clock for the UART module, toggling every time unit.
+- The enable signal controls the transmission enable/disable.
+- The Tx_busy signal indicates whether the transmitter is busy.
+- The rdy signal indicates when the UART module is ready to receive data.
+- The Rx_data signal holds the data received from the UART module.
+- The loopback signal connects the UART Tx and Rx pins, creating a loopback for testing.
+- The ready_clr signal clears the ready signal from the UART module.
+- The initial block sets up the testbench by dumping waveform data and enabling transmission initially.
+- The clock generation block toggles the clock every time unit.
+- The test logic is triggered by the UART ready signal (rdy). When ready, it checks if the received data matches the transmitted data. If it matches, it increments the data for the next transmission. If all bytes have been verified, it displays a success message and finishes the simulation. If there is a data mismatch, it displays a failure message and finishes the simulation.
+
 ## Appendix
 
 #### youtube videos
