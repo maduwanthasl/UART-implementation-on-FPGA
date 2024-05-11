@@ -16,6 +16,8 @@ UART, or Universal Asynchronous Receiver/Transmitter, is a hardware component an
 
 #### Transmitter Operation:
 
+![UART peripherals](https://raw.githubusercontent.com/maduwanthasl/UART-implementation-on-FPGA/main/Images/UART%20PERIPHERALS.png)
+
 - **Parallel-to-Serial Conversion:** The transmitter receives data in parallel format from the host device, typically in byte-sized chunks (8 bits). It converts this parallel data into a serial stream of bits for transmission over a communication channel.
 - **Frame Structure:** Each byte of data is framed by start and stop bits. The start bit signals the beginning of a data byte, while the stop bit(s) indicate its end. This framing allows the receiver to synchronize with the data stream.
 
@@ -38,3 +40,10 @@ UART, or Universal Asynchronous Receiver/Transmitter, is a hardware component an
 #### Applications:
 
 UART is widely used in embedded systems, microcontrollers, communication interfaces, and peripherals for serial communication. It enables the exchange of data between diverse electronic devices, ranging from simple sensors and actuators to complex networking equipment and industrial machinery.
+
+## Appendix
+
+#### youtube videos
+
+- https://www.youtube.com/watch?v=JuvWbRhhpdI
+- https://www.youtube.com/watch?v=QmjKRwgddxw&t=314s
